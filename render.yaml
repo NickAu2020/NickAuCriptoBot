@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: NickAuCriptoBot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8092726351:AAHTWskkaxW5WyP0mfGvM0IpEXGWcP_Edbk
