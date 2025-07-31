@@ -7,4 +7,4 @@ services:
     plan: free
     envVars:
       - key: TELEGRAM_TOKEN
-        value: 8092726351:AAHTWskkaxW5W...  # сюда вставь ПОЛНЫЙ токен
+        value: 8092726351:AAHTWskkaxW5WyP0mfGvMOIpEXGWcP_Edbk
